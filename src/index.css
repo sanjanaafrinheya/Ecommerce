@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.slick-dots .slick-active div{
+     border-right: 3px solid#262626;
+     color:#262626 !important;
+}
+
+.main a.active {
+     border-bottom: 2px solid #262626;
+     
+}
+::selection{
+     background-color: #262626;
+     color:white;
+}
+.nav {
+     transition: all 0.1s linear;
+     position: fixed;
+     z-index: 200;
+     width:100%;
+     background:#ffffff;
+     left:0;
+     top:0;
+     color:#767676
+   }
+ 
+   .scrollNav {
+     transition: all 0.5s ease-in-out;
+     z-index: 2000;
+     width: 100%;
+     border-bottom: 1px solid #dddddd;
+     background: grey;
+     color:black !important;
+   }
+ 
